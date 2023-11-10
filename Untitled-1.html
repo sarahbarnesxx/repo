@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgba(243, 230, 247, 0.588)22, 175, 0.588);
+    }
+
+    .shop-container {
+      max-width: #;
+      background-color: ;
+      padding: 20px;
+      border: 1px solid;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .image {
+      width: 23%;
+      margin: 0.5%;
+      box-shadow: 0 0 5px rgba(237, 234, 252, 0.2);
+    }
+
+    .image img {/
+      max-width: 100%;
+      height: auto;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    fieldset {
+      border: 1px solid rgba(221, 221, 221, 0.315)
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    legend {
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="shop-container">
+    <h1>Welcome to My Online Shop</h1>
+    <p>Check out our products below:</p>
+
+    <div class="image-row">
+      <div class="image">
+        <img src="/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg" alt="Product 1">
+        <div class="checkbox-overlay"><input type="checkbox" name="product1"></div>
+      </div>
+      <div class="image">
+        <img src="/monika-grabkowska-N-xhCO5gY7s-unsplash.jpg" alt="Product 2">
+      </div>
+      <div class="image">
+        <img src="/charlesdeluvio-hQckRlItq4c-unsplash.jpg" alt="Product 3">
+      </div>
+      <div class="image">
+        <img src="/brooke-lark-R18ecx07b3c-unsplash.jpg" alt="Product 4">
+      </div>
+    </div>
+
+    <h1> OPTION 2</h1>
+    <label for="potato" Choose your potato option &#127840;:</label>
+        <input list="cooking" name="potato" id="potato" required>
+    
+    <datalist id="cooking">
+        <option value="Jacket">
+            <option value="Ham">
+                <option value="Bread">
+    
+    </datalist>
+    <form>
+      <fieldset>
+        <legend>Order Details</legend>
+        <label for="first">First name:</label> <br>
+        <input type=""text" id="first" name="first">
+        
+    
+        <br> 
+    
+        <label for="last">Last name:</label> <br>
+        <input for="text" id="last" name="last">
+        
+
+        <br>
+
+        <label for="first">Email:</label> <br>
+        <input type="email" id="email" name="email">
+        
+    
+        <br> 
+    
+        <label type="submit" id="Submit" value="submit">
+        <input type="reset" value="Reset">
+        
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment Details</legend>
+        <label for="payment">Card Name:</label> <br>
+        <input type=""text" id="Card Name" name="Card Name">
+      </fieldset>
+
+      <fieldset>
+        <legend>Delivery Address</legend>
+        <label for="Number">Number:</label></br>
+        <input type="text" id="Number" name="Number">
+        <br> 
+        <label for="street">Street:</label></br> 
+        <input type="text" id="street" name="street">
+        <br> 
+        <label for="city">City:</label></br>
+        <input type="text" id="city" name="city">
+        <br> 
+        <label for="postcode">Postcode:</label></br>
+        <input type="text" id="PostCode" name="Postcode">
+        <br> 
+
+
+      </fieldset>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+ 
+</body>
+</html>
